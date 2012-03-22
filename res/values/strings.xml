@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Wire Reference</string>
+<string name="about">About:</string>
+<string name="about_btn">About</string>
+<string name="about_title"></string>
+<string name="about_close"></string>
+<string name="description">Utility to help wire up Data and Voice cables.\n</string>
+
+<string name="Cat5A">TIA/EIA&#8211;568&#8211;A.1&#8211;2001 Cat 5 A</string>
+<string name="Cat5B">TIA/EIA&#8211;568&#8211;B.1&#8211;2001 Cat 5 B</string>
+<string name="RJ11">RJ11</string>
+<string name="RJ14">RJ14</string>
+<string name="Pin">Pin</string>
+<string name="Pair">Pair</string>
+<string name="Wire">Wire</string>
+<string name="Color">Color</string>
+
+<style name="ButtonText">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_margin">3dp</item>
+    <item name="android:textSize">15dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">2</item>
+</style>
+</resources>
+
+
+
