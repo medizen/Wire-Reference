@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
@@ -10,7 +11,7 @@
     android:layout_height="wrap_content" 
     android:background="@drawable/blue_button" 
     style="@style/ButtonText"
-    android:text="@string/RJ11">
+    android:text="@string/rj11">
     </Button>
 
 <Button
@@ -19,12 +20,22 @@
     android:layout_height="wrap_content"
     android:background="@drawable/red_button" 
     style="@style/ButtonText"
-    android:text="@string/RJ14">
+    android:text="@string/rj14">
     </Button>
     
-    <RelativeLayout
-        android:id="@+id/relLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </RelativeLayout>
+        <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <com.google.ads.AdView  
+      android:id="@+id/ad" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      ads:backgroundColor="#000000"
+      ads:adUnitId="a14f6a2870a8fe7"
+      ads:primaryTextColor="#FFFFFF"
+      ads:secondaryTextColor="#CCCCCC"
+      ads:adSize="BANNER"
+    />
+</RelativeLayout>
 </LinearLayout>

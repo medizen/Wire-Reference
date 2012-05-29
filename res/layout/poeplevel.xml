@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id = "@+id/RHE"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="0"
+         android:padding="5dp">
+
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Class "
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" Usage "
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" Current [mA] "
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/powerrange"
+             android:text=" Power Range [Watt] "
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/description"
+             android:text=" Class Description"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="0"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" Default"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" 0-4"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/powerrange"
+             android:text=" 0.44-12.94"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/description"
+             android:text=" Unimplemented"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="1"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" Optional"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" 9-12"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/powerrange"
+             android:text=" 0.44-3.84"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/description"
+             android:text=" Very Low Power"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+          <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="2"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" Optional"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" 17-20"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/powerrange"
+             android:text=" 3.84-6.49"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/description"
+             android:text=" Low Power"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+               <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="3"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" Optional"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" 26-30"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/powerrange"
+             android:text=" 6.49-12.95"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/description"
+             android:text=" Mid Power"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="4"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" 802.3at(type2)"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" 36-44"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/powerrange"
+             android:text=" 12.95-25.50"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/description"
+             android:text=" High Power"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+</TableLayout>

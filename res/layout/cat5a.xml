@@ -20,7 +20,7 @@
     		android:layout_width="wrap_content" 
     		android:layout_height="wrap_content" 
     		android:textAppearance="?android:attr/textAppearanceMedium" 
-    		android:text="T568A Wiring"/>
+    		android:text="@string/t568awiring"/>
 
 </TableLayout>
 <TableLayout 

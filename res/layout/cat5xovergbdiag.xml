@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/tableb"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tablea"
+        android:layout_centerHorizontal="true"
+        android:background="#000000" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@drawable/cell_shapea"
+                android:drawableBottom="@drawable/white_orangevertlg"
+                android:drawableTop="@drawable/white_greenvertlg" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@drawable/cell_shapea"
+                android:drawableBottom="@drawable/orangevertlg"
+                android:drawableTop="@drawable/greenvertlg" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@drawable/cell_shapea"
+                android:drawableBottom="@drawable/white_greenvertlg"
+                android:drawableTop="@drawable/white_orangevertlg" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@drawable/cell_shapea"
+                android:drawableBottom="@drawable/bluevertlg"
+                android:drawableTop="@drawable/white_brownvertlg" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@drawable/cell_shapea"
+                android:drawableBottom="@drawable/white_bluevertlg"
+                android:drawableTop="@drawable/brownvertlg" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@drawable/cell_shapea"
+                android:drawableBottom="@drawable/greenvertlg"
+                android:drawableTop="@drawable/orangevertlg" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@drawable/cell_shapea"
+                android:drawableBottom="@drawable/white_brownvertlg"
+                android:drawableTop="@drawable/bluevertlg" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:background="@drawable/cell_shapea"
+                android:drawableBottom="@drawable/brownvertlg"
+                android:drawableTop="@drawable/white_bluevertlg" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="163dp"
+        android:src="@drawable/rightxovers" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:src="@drawable/leftxoversgb" />
+
+</RelativeLayout>

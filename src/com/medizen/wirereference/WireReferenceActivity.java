@@ -11,9 +11,8 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.TabHost;
-import com.google.ads.*;
+
 
 @SuppressWarnings("deprecation")
 public class WireReferenceActivity extends TabActivity {
@@ -25,12 +24,12 @@ public class WireReferenceActivity extends TabActivity {
         TabHost tabHost = getTabHost();  // The activity TabHost
         TabHost.TabSpec spec;  // Reusable TabSpec for each tab
         Intent intent;  // Reusable Intent for each tab
-
+        
         // Create an Intent to launch an Activity for the tab (to be reused)
         intent = new Intent().setClass(this, Data.class);
 
         // Initialize a TabSpec for each tab and add it to the TabHost
-        spec = tabHost.newTabSpec("data").setIndicator("Data",
+        spec = tabHost.newTabSpec("data").setIndicator("Network Connection Pinouts",
                           res.getDrawable(R.drawable.ic_tab_data))
                       .setContent(intent);
         tabHost.addTab(spec);
@@ -41,7 +40,7 @@ public class WireReferenceActivity extends TabActivity {
                           res.getDrawable(R.drawable.ic_tab_voice))
                       .setContent(intent);
         tabHost.addTab(spec);
-        
+       
         
 
                 
@@ -83,6 +82,7 @@ public class WireReferenceActivity extends TabActivity {
                     }
                 }).show();
     }
+
 }
 
 

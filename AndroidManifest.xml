@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.medizen.wirereference"
-    android:versionCode="2"
-    android:versionName="1.01" >
+    android:versionCode="5"
+    android:versionName="1.04" >
 
     <uses-sdk android:minSdkVersion="7" />
 
@@ -15,7 +15,6 @@
             android:theme="@android:style/Theme.NoTitleBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -34,31 +33,173 @@
             android:label="@string/app_name" >
 
         </activity>
-            <activity
+        <activity
             android:name=".Cat5A"
             android:label="@string/app_name" >
-
-        </activity>
-            <activity
+       </activity>
+       <activity
+            android:name=".cat5atab"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".Cat5ADescription"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".Cat5Aconductors"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".Cat5Aradius"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
             android:name=".Cat5B"
             android:label="@string/app_name" >
 
-        </activity>
-            <activity
+       </activity>
+       <activity
+            android:name=".cat5btab"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".Cat5BDescription"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".Cat5Bconductors"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".Cat5Bradius"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".cat5xover"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".cat5xoverDescribe"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".Cat5xoverDiag"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation" >
+       </activity>
+       <activity
+            android:name=".Cat5xoverOverview"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".Cat5xoverPinouts"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".cat5xoverga"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".cat5xovergaDescribe"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".Cat5xovergaDiag"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".Cat5xovergaOverview"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".Cat5xovergaPinouts"
+            android:label="@string/app_name" >
+       </activity>
+              <activity
+            android:name=".cat5xovergb"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".cat5xovergbDescribe"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".Cat5xovergbDiag"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".Cat5xovergbOverview"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".Cat5xovergbPinouts"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".POEDescription"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".POEcompare"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".POEUses"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".poetab"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:configChanges="keyboardHidden|orientation"/>
+       <activity
+            android:name=".POEWiring"
+            android:label="@string/app_name" >
+       </activity>
+            
+       <activity
+            android:name=".POEPLevel"
+            android:label="@string/app_name">
+            </activity>
+       <activity
+            android:name=".POEPowerDevicesDescribe"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".POEPowerDevicesChart"
+            android:label="@string/app_name" >
+       </activity>
+              <activity
+            android:name=".POEPowerDevicesChart2"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
+            android:name=".POEStanImplem"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:configChanges="keyboardHidden|orientation"/>
+       <activity
+            android:name=".POEStanImplemDescribe"
+            android:label="@string/app_name" >
+       </activity>
+            
+       <activity
+            android:name=".POEStanImplemChart"
+            android:label="@string/app_name" >
+       </activity>
+       <activity
             android:name=".RJ14"
             android:label="@string/app_name" >
-
         </activity>
             <activity
             android:name=".RJ11"
             android:label="@string/app_name" >
-
         </activity>
-         <activity android:name="com.google.ads.AdActivity"
+   <activity android:name="com.google.ads.AdActivity"
               android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize">
             </activity>
-    </application>
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-
+  </application>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 </manifest>

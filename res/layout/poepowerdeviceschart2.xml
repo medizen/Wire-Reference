@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id = "@+id/RHE"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="0"
+         android:padding="5dp">
+
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Stage "
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" Action "
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Detection"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" PSE Detects if PD has the correct resistance 19-26.5 Ohms"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Classification"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" PSE Detects resistor indicating power range"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Mark 1"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" Signals PSE is 802.3at capable. PD presents an 0.25-4 mA load"  
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Class 2"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" PSE outputs classification voltage to indicate 802.3at capability" 
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+          <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Mark 2"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" Signals PSE is 802.3at capable. PD presents an 0.25-4 mA load"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Startup"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" Startup Voltage"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+          <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Normal Oper."
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" Supply power to the device"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+
+ 
+</TableLayout>
+</ScrollView>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id = "@+id/RHE"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="0"
+         android:padding="5dp">
+
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Switch Pins "
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" 10/100 Mode B "
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" 10/100 Mode A "
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/powerrange"
+             android:text=" 1GB Mode B "
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/description"
+             android:text=" 1GB Mode A"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="1"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" Rx +"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" Rx+  DC+"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/powerrange"
+             android:text=" TxRx A+"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/description"
+             android:text=" TxRx A+    DC+"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="2"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" Rx -"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" Rx-   DC+"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/powerrange"
+             android:text=" TxRx A+"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/description"
+             android:text=" TxRx A+    DC+"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="3"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" Tx +"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" Tx+  DC-"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/powerrange"
+             android:text=" TxRx B+"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/description"
+             android:text=" TxRx B+    DC-"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+          <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="4"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" DC +"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" Unused"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/powerrange"
+             android:text=" TxRx C+  DC+"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/description"
+             android:text=" TxRx C+"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+          <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="5"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" DC +"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" Unused"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/powerrange"
+             android:text=" TxRx C-   DC+"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/description"
+             android:text=" TxRx C-"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+               <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="6"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" Tx -"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" Tx-   DC-"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/powerrange"
+             android:text=" TxRx B-"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/description"
+             android:text=" TxRx B-     DC-"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+          <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="7"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" DC -"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" Unused"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/powerrange"
+             android:text=" TxRx D+   DC-"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/description"
+             android:text=" TxRx D+"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+          <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="8"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" DC -"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" Unused"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/powerrange"
+             android:text=" TxRx D+   DC-"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/description"
+             android:text=" TxRx D-"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>          
+</TableLayout>

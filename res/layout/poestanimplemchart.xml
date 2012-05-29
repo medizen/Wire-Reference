@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id = "@+id/RHE"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="0"
+         android:padding="5dp">
+
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Property "
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" 802.3af (802.3at Type 1) "
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" 802.3at Type 2"
+             android:layout_height="wrap_content"
+             />
+     </TableRow>
+
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Power available at PD"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" 12.95 W"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" 25.50 W"
+             android:layout_height="wrap_content"
+             />
+      </TableRow>
+           <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Max Power by PSE"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" 15.40 W"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" 34.20 W"
+             android:layout_height="wrap_content"
+             />
+      </TableRow>
+                 <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Voltage range (at PSE)"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" 44.0-57.0 V"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" 50.0-57.0 V"
+             android:layout_height="wrap_content"
+             />
+      </TableRow>
+                 <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Voltage range (at PD)"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" 37.0-57.0 V"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" 42.5-57.0 V"
+             android:layout_height="wrap_content"
+             />
+      </TableRow>
+      <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Maximum current"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" 350 mA"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" 600 mA per mode"
+             android:layout_height="wrap_content"
+             />
+      </TableRow>
+      <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Max Cable Resistance"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" 20 Ohms Cat3"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" 12.5 Ohms Cat5"
+             android:layout_height="wrap_content"
+             />
+      </TableRow>
+      <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Power Management"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" 3 Power levels"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" 4 Power levels"
+             android:layout_height="wrap_content"
+             />
+      </TableRow>
+      <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Max Cable Ambient Temp"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" None"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" 5C with 2 pairs active"
+             android:layout_height="wrap_content"
+             />
+      </TableRow>
+      <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Supported Cabling"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" Cat3 and Cat5"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" Cat5"
+             android:layout_height="wrap_content"
+             />
+      </TableRow>
+      <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/classs"
+             android:text="Supported Mode"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             />
+         <TextView
+             android:id="@+id/usage"
+             android:text=" Mode A Endspan Mode B Midspan"
+             android:layout_height="wrap_content"
+             />
+         <TextView
+             android:id="@+id/current"
+             android:text=" Mode A, Mode B"
+             android:layout_height="wrap_content"
+             />
+      </TableRow>
+        
+</TableLayout>
